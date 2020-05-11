@@ -25,6 +25,12 @@ It took about 4 days. I was in charge of Android-Server part.
   서로 합의를 볼 때까지 커뮤니케이션을 해야한다는 것과 커뮤니케이션을 위해서 더 많은 노력을 해야한다는 것 등 많은 교훈을 얻었다.
   그리고 대회에서 1등을 수상해서 고생했지만서도 많이 뿌듯했다.
 
+  I can say this is my first team project. I felt how difficult to communicate each other during this project.
+  Understading others and making them understand, discussing direction etc..
+  But, I've learned a lot.
+  Firstly, I have to fight with others for making important decisions until agreement.
+  Secondly, I must try harder to improve my communication skills.
+  Anyway, after all this effort, I'm so happy because won the competition.
 
 대회기사
 http://gamefocus.co.kr/detail.php?number=102179
