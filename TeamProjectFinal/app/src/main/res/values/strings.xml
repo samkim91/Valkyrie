@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Valkyrie</string>
+
+    <string name="converttitle">변환중</string>
+    <string name="convertmessage">잠시만 기다려주세요.</string>
+</resources>

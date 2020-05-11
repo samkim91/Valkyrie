@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consent.ConsentFormActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="수술의 목적 및 방법"
+            android:textSize="25dp" />
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="1. 수술의 목적" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="상안검성형술은 양측 상안검 및 하안검에서 과도한 피부, 근육 및 그 아래에 존재하는 지방조직을 제거하는 수술로 처지는 피부 또는 볼록한 안검, 시야를 가리는 경우 이를 개선시켜줄 수 있습니다. 동양인의 안검에 쌍꺼풀을 만들어줄 수 있지만 인종적 특성을 지워버릴 수는 없습니다. 그러나 눈가의 주름 또는 눈 아래의 그늘진 눈 밑부분(다크 서클) 또는 쳐진 눈썹 등 노화의 과정을 개선시켜줄 수는 없습니다."
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="2. 수술의 방법" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="안검성형술은 환자 각각의 필요에 따른 특성에 맞게 수술을 하게 됩니다. 상안검, 하안검 또는 상하안검 모두를 수술할 수 있고 눈, 안면부, 눈썹 또는 코와 함께 연계하여 수술할 수도 있습니다. "
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="*대체 요법" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="느슨한 피부와 볼록한 안검을 수술하지 않고 그냥 둘 수도 있습니다. 적응이 되면 눈썹당김술을 통해 느슨한 피부와 볼록한 안검을 개선할 수 있습니다. 근육의 문제로 안검이 처지는 경우(안검 하수) 또는 안검과 안구 사이에 헐거움이 있는 경우(안검외반증)에는 다른 형태의 안검 수술이 필요합니다. 주요하지 않은 피부의 주름은 화학적 박피술 또는 다른 방식의 피부 치료를 통해 개선할 수 있습니다. 위험성과 잠재적 합병증은 수술을 포함한 대체 가능한 치료들과 연관되어 나타나게 됩니다. "
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="*본인은 위에 대한 설명을 듣고 충분히 이해했습니다."
+            android:textSize="16dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/lighGreen"
+            android:text="동의" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckDoc.AddDocHistory">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/fake"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/rectangle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/addImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/plus"
+            app:layout_constraintLeft_toLeftOf="@id/fake"
+            app:layout_constraintTop_toTopOf="@id/fake" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_image"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fake"
+            app:layout_constraintTop_toTopOf="@id/fake" />
+
+        <EditText
+            android:id="@+id/title_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="제목"
+            android:maxLines="2"
+            app:layout_constraintLeft_toLeftOf="@id/fake"
+            app:layout_constraintTop_toBottomOf="@id/fake" />
+
+        <EditText
+            android:id="@+id/hospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="병원 이름"
+            app:layout_constraintLeft_toLeftOf="@id/title_et"
+            app:layout_constraintTop_toBottomOf="@id/title_et" />
+
+        <EditText
+            android:id="@+id/doctorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="의사 이름"
+            app:layout_constraintLeft_toLeftOf="@id/hospital"
+            app:layout_constraintTop_toBottomOf="@id/hospital" />
+
+        <EditText
+            android:id="@+id/doctorMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="진료과/전공"
+            app:layout_constraintLeft_toLeftOf="@id/doctorName"
+            app:layout_constraintTop_toBottomOf="@id/doctorName" />
+
+        <EditText
+            android:id="@+id/content_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="날짜, 시간, 조치 등 자세하게 작성해주세요."
+            android:inputType="textMultiLine"
+            app:layout_constraintLeft_toLeftOf="@id/doctorMajor"
+            app:layout_constraintTop_toBottomOf="@id/doctorMajor" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveBtn"
+            android:text="저장"
+            app:layout_constraintTop_toBottomOf="@id/content_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="20dp"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

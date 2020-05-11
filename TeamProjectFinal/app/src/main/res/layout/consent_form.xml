@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consent.ConsentFormActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="수술동의서"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+            android:layout_marginBottom="20dp"
+            />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:stretchColumns="*"
+            >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text="수술명"
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:id="@+id/tv_surgery_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text=""
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:padding="1dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text="주치의"
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:id="@+id/tv_doctorName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text=""
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text="환자 이름"
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+                <EditText
+                    android:id="@+id/et_patName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text=""
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:padding="1dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text="환자 특이사항"
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:layout_span="2"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:padding="1dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text="과거병력"
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text=""
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:padding="1dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text="알레르기"
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text=""
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:padding="1dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text="복용약물"
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text=""
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:padding="1dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text="흡연여부"
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:text=""
+                    android:background="#ffffff"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+
+        <LinearLayout
+            android:id="@+id/content1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/check1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. 수술의 목적 및 효과"
+                android:textSize="22dp"
+                android:layout_gravity="center"
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/next"
+                android:layout_gravity="center"
+                android:layout_marginLeft="130dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/check2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. 수술 후 발생할 수 있는 후유증"
+                android:textSize="22dp"
+                android:layout_gravity="center"
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/next"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/content3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/check3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. 환자 특이사항 및 기타 주의 사항"
+                android:textSize="22dp"
+                android:layout_gravity="center"
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/next"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="본인은 본인(또는 환자) 상안검성형술에 대한 수술 및 마취/의식하 진정의 필요성, 내용, 예상되는 합병증과 후유증 등에 대한 설명을 담당의로부터 들었으며, 본 수술 및 마취/의식하 진정 도중에 불가항력적으로 합병증이 발생하거나, 환자의 특이체질로 인하여 우발적인 사고가 일어날 수 있다는 것을 사전에 설명 들었고, 그 내용을 충분히 이해하였습니다. 이에 본 수술 및 마취/의식하 진정을 시행하는데 동의하며, 본 동의에 따른 의학적 처리를 담당의사 판단에 위임할 것을 서면으로 동의합니다."
+            android:textSize="17dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/content4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/check4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="나는 위 정보를 모두 숙지하였으므로 의학적 처리를 주치의 판단에 위임하여 수술을 하는데 동의합니다."/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_toQR"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="다음"
+                android:textSize="25dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/lighGreen" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

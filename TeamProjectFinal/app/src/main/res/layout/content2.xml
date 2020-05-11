@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consent.ConsentFormActivity">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="수술 후 발생할 수 있는 후유증"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="모든 수술적 처치는 어느 정도의 위험성을 가지고 있으므로 이에 대한 정보를 사전에  알고있는 것이 중요합니다. 어떠한 수술적 처치를 선택하던 상대적으로 득과 실을 가지고 있습니다. 대부분의 환자들이 다음에서 설명하는 부작용에 대해서 경험하지 않겠지만 각각의 부작용에 대해서 담당 의사와 상담해 보시기 바랍니다."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="1.출혈"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="일반적이지는 않지만 수술 중 또는 수술 후 심한 출혈이 발생할 수 있습니다. 출혈은 피부 및 또는 더 내부의 안구 주변에서 발생할 수 있습니다. 수술 후 출혈은 응급 치료 또는 수술을 요할 수도 있습니다. 아스피린 또는 항염증 제재는 이러한 위험을 증가시킬 수 있으므로 수술 열흘 전부터는 복용하지 마십시오. 고혈압이 잘 조절되지 않는 경우는 수술 중 또는 수술 후 출혈을 일으킬 수 있습니다. 안검 아래에 피가 고이면 상처 치유를 지연시키고 반흔을 남기게 됩니다. "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="2. 실명"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="안검성형술 후의 실명은 매우 드문 일입니다. 그러나 수술 중 또는 수술 후 안구 주변의 내부에서 출혈이 있는 경우 발생할 수 있습니다. 이것은 예측할 수 없는 합병증입니다. "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="3. 감염"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="감염은 매우 드물게 일어납니다. 하지만 감염이 일어날 경우 항생제의 추가 사용 및 추가적 수술이 필요할 수 있습니다."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="*본인은 위에 대한 설명을 듣고 충분히 이해했습니다."
+            android:textSize="16dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/lighGreen"
+            android:textStyle="bold"
+            android:text="확인" />
+
+    </LinearLayout>
+
+</ScrollView>
+

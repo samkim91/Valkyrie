@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consent.ConsentFormActivity">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="환자 특이사항 및 기타 주의 사항"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="1.환자의 특이체질"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="수술 동의서는 수술에 대한 사전 설명 외에 합병증과 후유증에 대한 정보 전달을 목적으로 작성한 것입니다. 그러나 환자의 특이 체질로 우발적인 사고가 일어날 수도 있으므로 자세한 내용은 개별적으로 담당 의사와 상담을 하시기 바랍니다. "/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="2.추가적인 수술"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="많은 다양한 상황들과 위험 그리고 가능한 합병증들이 안검 성형술의 장기적 결과에 영향을 주게 됩니다. 합병증은 매우 드물게 나타나지만, 앞서 언급한 내용들은 안검성형술과 연관된 것들입니다. 다른 합병증들이 나타날 가능성도 있지만 앞서 언급한 내용들보다 더욱 가능성이 적습니다. 합병증이 나타나면, 추가적인 수술 또는 다른 치료가 필요하게 됩니다. 좋은 결과가 기대 된다고 하더라도 이에 대한 섣부른 기대나 예상을 하지 않는 것이 좋겠습니다."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="3.수술 비용"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="수술의 비용은 제공되는 의료서비스의 내용에 따라 변하게 됩니다. 총 비용은 의사가 책정한 수술비, 수술도구, 마취, 수술 전후의 여러 검사들, 외래 방문 비용 등에 의하여 결정됩니다. 당신이 가입한 보험의 약관에 따라 보험 공제 항목에 따른 공제비용과 지출하게 될 비용이 결정되게 됩니다. 수술의 합병증에 의하여 추가적인 비용이 발생할 수도 있습니다. 이차적인 수술 및 교정 수술의 비용도 부담해야 합니다"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="*본인은 위에 대한 설명을 듣고 충분히 이해했습니다."
+            android:textSize="16dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_content3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/lighGreen"
+            android:text="동의" />
+
+    </LinearLayout>
+
+</ScrollView>
+

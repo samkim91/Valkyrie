@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="환자의 휴대폰을 이용해 \nQR코드를 읽어주세요."
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/qrcode"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/check_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        app:layout_constraintLeft_toLeftOf="@id/qrcode"
+        app:layout_constraintRight_toRightOf="@id/qrcode"
+        app:layout_constraintTop_toBottomOf="@id/qrcode"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/convert_pdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="동의서 저장하기"
+        app:layout_constraintLeft_toLeftOf="@id/qrcode"
+        app:layout_constraintRight_toRightOf="@id/qrcode"
+        app:layout_constraintTop_toBottomOf="@id/check_return"
+        android:layout_marginTop="20dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
