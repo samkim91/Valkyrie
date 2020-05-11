@@ -32,7 +32,9 @@ It took about 4 days. I was in charge of Android-Server part.
   Secondly, I must try harder to improve my communication skills.
   Anyway, after all this effort, I'm so happy because won the competition.
 
-대회기사
+영상(video)
+https://epdev.tistory.com/12
+대회기사(article)
 http://gamefocus.co.kr/detail.php?number=102179
 http://game.mk.co.kr/view.php?year=2020&no=142651
 http://news.zum.com/articles/58055451?c=08
